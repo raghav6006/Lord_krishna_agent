@@ -1,0 +1,4 @@
+crewai
+python-dotenv
+crewai-tools
+flask_session
