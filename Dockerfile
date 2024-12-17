@@ -14,7 +14,7 @@ RUN  pip install -r requirements.txt
 ENV OPENAI_API_KEY=${OPENAI_API_KEY}
 
 # Expose the application port
-EXPOSE 8000
+EXPOSE 5001
 
 # Run the application
 CMD ["python", "krishna4.py"]

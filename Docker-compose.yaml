@@ -9,7 +9,8 @@ services:
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY} # Ensure your .env file has the API key
     ports:
-      - "8000:8000" # Adjust the port if needed
+      - "5001:5001" # Adjust the port if needed
     volumes:
       - .:/app
     restart: unless-stopped
+
