@@ -8,11 +8,12 @@ If you have Docker installed on your system, follow these steps:
    Repository Link: [GitHub - Lord Krishna Agent](https://github.com/raghav6006/Lord_krishna_agent.git)
 
 2. Open a terminal and navigate to the project directory.
-3. Run the following command:
+3. Update the `.env` file with your OpenAI API key.
+4. Run the following command:
    ```bash
    docker-compose up --build
    ```
-4. Once the build is complete, visit [http://localhost:5001](http://localhost:5001) in your web browser.
+5. Once the build is complete, visit [http://localhost:5001](http://localhost:5001) in your web browser.
 
 ---
 
@@ -24,15 +25,16 @@ If you don't have Docker installed but have Python set up, follow these steps:
    Repository Link: [GitHub - Lord Krishna Agent](https://github.com/raghav6006/Lord_krishna_agent.git)
 
 2. Open a terminal and navigate to the project directory.
-3. Install the required Python packages by running:
+3. Update the `.env` file with your OpenAI API key.
+4. Install the required Python packages by running:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the application using:
+5. Run the application using:
    ```bash
    python krishna4.py
    ```
-5. Open your web browser and visit [http://localhost:5001](http://localhost:5001).
+6. Open your web browser and visit [http://localhost:5001](http://localhost:5001).
 
 ---
 
